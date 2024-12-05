@@ -5,7 +5,7 @@ player_score = 0
 computer_score = 0
 
 print("Welcome to the Stone Paper Scissors game!\n")
-print("You will play against the computer. The game will end when one of you reaches 5")
+print("You will play against the computer. The game will end when one of you reaches 5\n")
 
 for i in range(5):
     computer = random.choice(options)
